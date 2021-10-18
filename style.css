@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    border: 25px solid rgb(8, 12, 12);
+    background-color:lavender;
+    
+  }
+  
+  .clr {
+    clear: both;
+  }
+  
+  #header {
+    padding: 20px;
+    margin: 50px;
+  }
+  
+  #resume-profile-picture {
+    float: left;
+    width: 49%;
+    border: black;
+  }
+  
+  #resume-profile-picture img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    border:  5px solid rgb(8, 12, 12);;
+  }
+  
+  #profile-details {
+    float: right;
+    width: 49%;
+  }
+  #details {
+    padding: 20px 15px;
+  }
+  #details ul {
+    margin-top: 20px;
+  }
+  
+  #details ul li {
+    display: inline;
+    padding-right: 20px;
+  }
+  
+  #main {
+    margin: 0 20px;
+    padding: 20px;
+  }
+  #main {
+    float: right;
+    width: 55%;
+    border-left: 2px solid black;
+  }
+  #sidebar {
+    width: 45%;
+    margin: 150px 20px 20px 20px;
+    text-align: right;
+  }
+  #main p,
+  #sidebar p {
+    text-align: justify;
+  }
+  section {
+    margin-top: 30px;
+  }
+  
+  article {
+    margin-top: 25px;
+    
+  }
+  sa{
+    margin-top: 25px;
+    border-bottom:2px solid black;
+  }
+  
+  #hobbies ul {
+    list-style: none;
+    margin-top: 25px;
+  }
+  #hobbies ul li {
+    line-height: 30px;
+    font-style: italic;
+  }
+  #down {
+    
+    float: right;
+    width: 55%;
+    
+  }
+  #side p{
+    float:left;
+  }
